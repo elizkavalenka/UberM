@@ -1,3 +1,6 @@
+$blue-color: #1ca8c3
+$red-color: #ff5656
+    
 *
     font-family: 'Roboto',sans-serif
 
@@ -283,4 +286,30 @@ nav
 .terms
     min-height: 919px
     padding: 68px 0 84px 0
-    
+    &_name
+        padding-top: 31px
+        font-size: 22px
+        font-weight: normal
+        &_blue
+            color: $blue-color
+        &_red
+            color: $red-color
+
+    &_list_item
+        font-size: 17px
+        font-weight: 300
+        line-height: 24px
+        text-align: left
+        color: #222222
+        list-style: none
+        padding-left: 30px
+        &_blue
+            background: url('../icon/chek_1.png') no-repeat 0 2px
+        &_red
+            background: url('../icon/chek_2.png') no-repeat 0 2px
+    &_descr
+        font-size: 17px
+        font-weight: 300
+        text-align: left
+        line-height: 24px
+        color: $blue-color
